@@ -1,0 +1,68 @@
+css
+body {
+	font-family: Arisl;
+	margin: 0;
+	background: #f2f2f2;
+}
+/*header*/
+header {
+	background: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+nav a {
+	color: #fff;
+	margin: 0 15px;
+	text-decoration: none;
+}
+.sanpham-section {
+	padding: 20px;
+	text-align: center;
+}
+.sanpham {
+	background: white;
+	width: 250px;
+	margin: 20px auto;
+	padding: 15px;
+	border-radius: 10px;
+}
+.sanpham img {
+	width: 100%;
+	border-radius: 10p;
+}
+.btn {
+	display: inline-block;
+	padding: 8px 15px;
+	background: #0080ff;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+}
+/*Chi tiết SP*/
+.chitiet {
+	margin: 30px;
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+.chitiet img {
+	border-radius: 10px;
+}
+/*Login*/
+.login-box {
+	width: 300px;
+	margin: 50px auto;
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+}
+input, button {
+	width: 100%;
+	color: black;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
