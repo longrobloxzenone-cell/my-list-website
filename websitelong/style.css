@@ -1,0 +1,18 @@
+/* 🔥 FIX CỨNG LỖI CĂN GIỮA */
+body, section, div {
+    text-align: left;
+}
+
+.sanpham-section h2 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch;
+}
+
+.sanpham {
+    text-align: left !important;
+}
